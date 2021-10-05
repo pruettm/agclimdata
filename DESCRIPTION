@@ -12,3 +12,5 @@ LazyDataCompression: bzip2
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.1.2
+URL: https://github.com/pruettm/agclimdata
+BugReports: https://github.com/pruettm/agclimdata/issues
