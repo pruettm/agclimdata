@@ -11,4 +11,5 @@ grid_stats <- read.dbf("data-raw/VICID_CO.DBF") |>
   as_tibble()
 
 
-usethis::use_data(grid_stats, overwrite = TRUE)
+
+usethis::use_data(grid_stats, overwrite = TRUE, compress = "bzip2")
