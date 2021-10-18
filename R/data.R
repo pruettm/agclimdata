@@ -16,3 +16,12 @@
 #' @format A data frame with 3 variables: \code{location}, \code{min_elev} and
 #'   \code{median_elev}
 "elev_grid"
+
+#' Grid Location data
+#'
+#' Lat, long, state, county, and area (km^2) information
+#' for each CONUS 1/16th degree grid
+#'
+#' @format A data frame with 6 variables: \code{location}, \code{lat}, \code{lon}, \code{state}, \code{county} and
+#'   \code{area_km2}
+"grid_stats"
