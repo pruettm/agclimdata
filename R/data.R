@@ -19,7 +19,7 @@
 
 #' Grid Location data
 #'
-#' Lat, long, state, county, and area (km^2) information
+#' Lat, long, state, county, area (km^2), associated time zone longitude information
 #' for each CONUS 1/16th degree grid
 #'
 #' @format A data frame with 6 variables: \code{location}, \code{lat}, \code{lon}, \code{state}, \code{county} and
